@@ -1,0 +1,129 @@
+*{
+    font-family: "Playwrite IT Moderna", cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+span{
+    color: red;
+}
+header{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    align-items: center;
+}
+header img{
+    width: 15rem;
+    height: auto;
+    border-radius: 40%;
+}
+header h2{
+    color: antiquewhite;
+   align-items: center;
+   padding: 2%;
+}
+header p{
+    color: aliceblue;}
+    
+
+.about{
+    color: aliceblue;
+    width: 95%;
+    min-height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.9fr 0.3fr;
+    grid-template-areas: "profile profile profile me"
+                        "edu edu lang me"
+                        "contact exp exp exp"
+                        "footer footer footer footer";
+    gap: 1rem;
+    padding: 3rem;
+}
+.me{
+    background: #3c6382;
+}
+.profile{
+    background: #36454F;
+    color:white;
+    padding: 2rem;
+    grid-area: profile;
+}
+.edu{
+    background: #3c6382;
+    color: azure;
+    padding: 2rem;
+    grid-area: edu;
+}
+.edu div{
+    padding: 1rem;
+}
+.edu div progress[value]{
+    width: 100%;
+    height: 1rem;
+}
+.lang{
+    background: white;
+    color: #0a3d62;
+    padding: 2rem;
+    grid-area: lang;
+}
+.lang ul li{
+    padding: 1rem;
+}
+.contact{
+    background: white;
+    color: #36454F;
+    padding: 2rem;
+    grid-area: contact;
+}
+.proj{
+    background: #3c6382;
+    color: aliceblue;
+    padding: 2rem;
+    grid-area: exp;
+}
+.proj p{
+    padding: 0.5rem;
+    text-align: justify;
+
+}
+footer{
+    color: azure;
+    background: #36454F;
+    padding: 2rem;
+    grid-area: footer;
+}
+h2{
+    margin-bottom: 1rem;
+
+}
+.profile p{
+    padding: 0.3rem 1rem;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+.contact div i{
+    margin-right: 0.1rem;
+}
+.contact p{
+    margin: 2rem 0;
+}
+footer{
+    text-align: center;
+}
+footer i{
+    background: whitesmoke;
+    color: black;
+    padding: 0.5rem;
+    margin: 1rem 0.2rem;
+    border-radius: 50%;
+
+}
